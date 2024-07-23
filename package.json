@@ -1,0 +1,16 @@
+{
+  "name": "message-forwarder",
+  "version": "1.0.0",
+  "description": "Forward message in Discord Servers.",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord-user-bots": "^2.0.2",
+    "discord.js": "^13.10.2",
+    "dotenv": "^16.4.5"
+  }
+}
