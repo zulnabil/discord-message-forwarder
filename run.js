@@ -24,7 +24,8 @@ client.on("message", (message) => {
         content: content || undefined,
         embeds,
         files,
-        username: message.author.username,
+        username: message.author.global_name,
+        avatarURL: `https://cdn.discordapp.com/avatars/${message.author.id}/${message.author.avatar}.png`,
       })
       .catch((error) =>
         console.error("Error sending webhook message:\n", error)
